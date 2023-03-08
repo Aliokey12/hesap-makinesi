@@ -1,0 +1,92 @@
+*{
+margin: 0;
+ padding: 0; 
+ box-sizing: border-box;
+
+}
+
+html{
+font-size: 10px;
+
+}
+
+body{
+    font-size: 1.2rem;
+    background-image: url(anime.jpg);
+}
+
+.calculator{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.calculator-input{
+    width: 100%;
+    font-size: 40px;
+    height: 70px;
+    border: none;
+    background-color: #252525;
+    color: #ffff;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: #252525;
+}
+
+button{
+    height: 50px;
+    background-color:#ffff ;
+    border-radius: 3px;
+    border: 1px solid ed;
+    background-color: transparent;
+    font-size: 25px;
+    color: #333f;
+
+}
+
+button:hover{
+    background-color: #eaeaea;
+
+}
+
+.operator{
+    color:black;
+}
+
+.clear {
+    background-color: #f0595f;
+    border-color: #b0353b;
+    color: #ffff;
+}
+.clear:hover{
+    background-color: #252525;
+}
+
+.equal-sign {
+    background-color: darkblue;
+    border-color: #337cac;
+    color: #ffff;
+    grid-area: 2/4/6/5;
+    height: 100%;
+
+}
+
+.equal-sign:hover {
+    background-color: yellow;
+}
+
+
+
+
+.calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    padding: 20px;
+    
+    }
